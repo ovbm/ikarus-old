@@ -1,0 +1,753 @@
+/*! normalize.css modified for PXtoEM.com at 16px
+    normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+
+html {
+    font-size: 1em; /* 1 */
+    -webkit-text-size-adjust: 1em; /* 2 */
+    -ms-text-size-adjust: 1em; /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+
+/* -----------------------------------------------------------------
+/* TOC
+/* ----------------------------------------------------------------- */
+/* 1. Page Elements */
+/* 2. Intro & Navigation */
+/* 3. PT Page */
+/* 4. Footer */
+/* 5. Sociallinks */ 
+/* 6. Newsfeed & Concerts
+/* 7. Music & Gallery
+/* 8. Media Queries */
+
+
+/* 1. Page Elements
+----------------------------------------------------------------- */
+html { 
+	height: 100%; 
+	background: url(../img/bg.png) repeat fixed;
+	}
+
+
+body{
+	height: 100%; 
+  	font-family: "jaf-domus-titling-web",sans-serif;
+	color: #00ffff;
+	margin: 0;
+	z-index:0;
+
+	}
+
+#main{
+    position:relative;
+    z-index:1;
+    padding: 0 0 600px 0;
+}
+
+p {
+	font-size:1em;
+	line-height: 1.5em;
+	text-align: justify;
+	}
+	
+a {
+	color: #fff;
+	text-decoration:none;
+	}
+
+a:hover{
+	color: #00ffff;
+	}
+	
+img {
+	display:block;
+	margin: 0.5em 0 0.5em 0;
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+	}
+
+#backsretch img {
+  max-width: none;
+}
+
+ul{
+	padding: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start:0;
+    list-style-type: none;
+	}
+
+li{
+	
+	}
+
+li p{
+	margin: 0;
+	}
+
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	}
+
+table{
+	width:100%;
+    border-collapse: collapse;
+	text-align:left;
+	}
+
+#lineup{
+	text-align:right;
+	}
+	
+td{
+	height: 1.5em;
+	vertical-align: top;
+	padding: 0 0.5em 0 0;
+	}
+
+tr{
+	}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 1.5em 0 0 0;
+	font-weight: normal;
+	}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0 0 0;
+    font-weight: normal;
+
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+.text{
+	text-align:justify;
+	}
+
+.contentwrap{
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	z-index:1;
+	padding: 0 0 1.25em 0;
+	}
+
+.contentwrapout{
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	z-index:1;
+	padding: 0 0 1.25em 0;
+	}
+
+.pagecontent{
+	min-height:820px;
+	}
+
+.onequarter{
+	width:25%;
+	display: block; 
+	float: left; 
+	padding: 0 0.5em 0 0.5em;  
+	}	
+	
+.onethird{
+	width:33%;
+	display: block; 
+	float: left; 
+	padding: 0 0.5em 0 0.5em;  
+	}
+
+.half{
+	width: 50%;
+	display: block; 
+	float: left; 
+	padding: 0 0.5em 0 0.5em; 
+	}
+		
+.twothirds{
+	width:66%;
+	float: left; 
+	display: block; 
+	padding: 0 0.5em 0 0.5em; 
+	}
+	
+.threequarter{
+	width:75%;
+	display: block; 
+	float: left; 
+	padding: 0 0.5em 0 0.5em;  
+	}	
+
+.threethirds{
+	width: 100%;
+	display: block; 
+	float: left; 
+	padding: 0 0.5em 0 0.5em; 
+	}
+
+.left{
+	float:left;
+	}
+
+.right{
+	float:right;
+	}
+	
+.element{
+	opacity: 0;
+}
+
+.firstelements{
+	opacity: 1;
+}
+
+.rotate90{
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+
+.rotate180{
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+
+.rotate270{
+	-webkit-transform: rotate(-270deg);
+	-moz-transform: rotate(-270deg);
+	-ms-transform: rotate(-270deg);
+	-o-transform: rotate(-270deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+
+/* 2. Intro & Navigation
+----------------------------------------------------------------- */
+
+#sidenav{
+	position: fixed;
+	top: 5em;
+	left: 1em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	width: 6.5em;
+	}
+	
+#sidenav ul{
+	list-style-type: none;
+}
+	
+#ikaruspic{
+	position: fixed;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	margin: -22em 0 0 -14.85em ;
+	z-index:-999;
+	}
+	
+#title{
+	color: #fff;
+	text-align:center;
+	font-size: 2em;
+	font-weight: 800;
+	}
+	
+#title:hover{
+	color: #000;
+	}
+
+#titleli{
+	width: 12.5em;
+	padding: 0;	
+	}
+	
+#ikarustitle{
+	font-size: 10em;
+	text-align: center;
+	margin: 3em 0 0 0;
+	font-weight: normal;
+}
+
+#logo{
+	background-image: url('../images/beelogo_black.png');
+	background-size: 100% 100%;
+ 	width: 10em;
+ 	height: 10em;
+ 	margin: 0 auto;
+	}
+	
+.intro{
+	margin: 1em 0 0 0;
+}
+
+.navborderleft{
+	display:inline-block;
+	border-bottom: 0.375em double #fff;
+  }
+
+.navborderright{
+	display:inline-block;
+	border-bottom: 0.375em double #fff;
+	}
+
+nav {
+	z-index: 1000;
+	text-align: center;	
+	position:relative;
+	}
+
+nav ul {
+	margin: 0;
+	}
+
+nav ul li {
+  	display: inline-block;
+  	vertical-align:middle; 
+  	padding: 0.5em 1.625em 0.75em 1.625em;
+  	width: 11.625em;
+	}
+
+nav ul li a{
+	color: #fff;
+	font-weight: normal;
+	font-size: 2.25em;
+	text-transform: uppercase;
+	}
+	
+nav ul li a:hover{
+	color: #000;
+	}
+
+.quote{
+	font-style: italic;
+	font-size: 1.2em;
+	margin: 1em 0 -1em 0;
+}
+
+
+
+/* 3. PT PAGE
+----------------------------------------------------------------- */
+
+
+.pt-perspective {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+}
+
+.pt-page {
+	width:100%;
+	margin: 0 auto;
+    min-height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	visibility: hidden;
+    opacity: 0;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.pt-page-current,
+.no-js .pt-page {
+	display: inline;
+	visibility: visible;
+    opacity: 1;
+	z-index: 1;
+}
+
+.no-js body {
+	overflow: auto;
+}
+
+.pt-page-ontop {
+	z-index: 999;
+}
+
+/* Text Styles, Colors, Backgrounds */
+
+.pt-page-1 {
+	 background: none;
+}
+
+.pt-page-2 {
+	 background: none;
+}
+
+.pt-page-3 {
+	 background: none;
+}
+
+.pt-page-4 {
+	 background: none;
+}
+
+.pt-page-5 {
+	 background: none;
+}
+
+
+.pt-page-6 {
+	 background: none;
+}
+
+
+/* Triggers (menu and button) */
+
+.pt-triggers {
+	position: absolute;
+	width: 300px;
+	z-index: 999999;
+	top: 12%;
+	left: 50%;
+	margin-top: 130px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%); 
+	transform: translateX(-50%);
+}
+
+.no-js .pt-triggers {
+	display: none;
+}
+
+.pt-triggers .dl-menuwrapper button,
+.pt-touch-button {
+	border: none;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0.5em 0 20px;
+	padding: 0px 20px;
+	line-height: 50px;
+	height: 50px;
+	letter-spacing: 1px;
+	width: 100%;
+	cursor: pointer;
+	display: block;
+	font-family: 'PT Sans', Calibri, Arial, sans-serif;
+	box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.pt-touch-button {
+	background: #fff;
+	color: #aaa;
+}
+
+.pt-triggers .dl-menuwrapper button {
+	margin-bottom: 0;
+}
+
+.pt-touch-button:active {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.touch .pt-triggers .dl-menuwrapper {
+	display: none;
+}
+
+.pt-message {
+	display: none;
+	position: absolute;
+	z-index: 99999;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #da475c;
+	color: #fff;
+	text-align: center;
+}
+
+.pt-message p {
+	margin: 0;
+	line-height: 60px;
+	font-size: 26px;
+}
+
+.no-cssanimations .pt-message {
+	display: block;
+}
+
+@media screen and (max-width: 47.4375em) {
+	.pt-page h1 {
+		font-size: 3em;
+	}
+
+	.pt-triggers .dl-menuwrapper {
+		display: none;
+	}
+}
+
+@media screen and (max-height: 45.9em) {
+	.pt-triggers .dl-menuwrapper li a {
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+	.pt-triggers .dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after {
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-height: 38em) { 
+	.pt-triggers .dl-menuwrapper {
+		display: none;
+	}
+}
+
+/* 4. Footer
+----------------------------------------------------------------- */
+
+#footer{
+	background-color: #000;
+	height:10em;
+	}
+ 
+#footer h3{
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	}
+#footer p{
+	color: #ddd;
+	font-size:0.75em;	
+	}
+
+#footer a{
+	color: #fff;
+	}
+
+#footer a:hover{
+	color: #ddd;
+	}
+
+
+
+/* 7. Music & Gallery
+----------------------------------------------------------------- */
+.musicitem{
+	margin: 1.25em 0 1.25em 0;
+	display:inline-block;
+	}
+
+.musictitle{
+	margin: 0em;
+	font-size:3.2em;
+	color:#fff;
+	}
+
+#gallery{
+	display:inline-block;
+	}
+
+.videowrap{
+	margin: 0 .5em 1em .5em;	
+	}
+
+.gallerycolumn{
+	width: 50%;
+	display: block; 
+	float: left; 
+	padding: 0; 
+	}
+
+/* 8. Media Queries
+----------------------------------------------------------------- */
+@media (max-width: 960px) {
+
+nav ul li{
+	padding: 0.5em 1.225em 0.5em 1.225em;
+	width: 9em;
+	}
+
+nav ul li a{
+	font-size: 2em;
+	}
+
+#titleli{
+	width: 9.5em;
+	}
+
+#logo{
+ 	width: 7.5em;
+ 	height: 7.5em;
+	}
+
+#sidenav{
+	background: #000;
+	position: fixed;
+	top: 0em;
+	padding: 1em;
+	left: 0em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	z-index: 999;
+	width: 100%;
+	}
+#sidenav ul{
+  	display: inline-block;
+	}
+#sidenav ul li{
+	display: inline;
+	}
+body{
+	padding-top: 4em;
+}
+
+#beepic{
+	width:100%;
+	position: relative;
+	top: 5em;
+	}
+
+#ikarustitle{
+	font-size: 6em;
+}
+
+}
+
+
+@media (max-width: 755px) {
+
+body {
+	font-size: 12px;
+ 	
+	}
+
+#titleli{
+	width:29em;
+	}
+#logo{
+ 	width: 6em;
+ 	height: 6em;
+	}
+
+.navborderright{
+	border-bottom: 0em double #fff;
+	border-top: 0.375em double #fff;
+	}
+
+.onequarter{
+	width:50%;
+	}
+
+.onethird{
+	width:50%;
+	}
+
+.half{
+	width: 100%;
+	}
+
+#footer{
+	height:12em;
+	}
+
+nav{
+margin: 0 0 20px 0;
+	}
+
+nav ul li{
+	width: 9.75em;
+	}
+
+td{
+	height: 1.5em;
+	}
+
+.concertinfo{
+	font-size: 0.75em;
+	font-variant:small-caps;
+	}
+
+#ikaruspic{
+	margin: -22em 0 0 -20em ;
+
+
+}
+
+}
+
+@media (max-width: 480px) {
+#titleli{
+	width:20em;	
+}
+
+}
