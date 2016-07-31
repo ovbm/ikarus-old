@@ -1,9 +1,3 @@
 User-agent: *
 Disallow: /booking/
 Disallow: /press/
-Disallow: /epk/
-Disallow: /revolution/
-Disallow: /masterbabe/
-Disallow: /attack/
-Disallow: /attackvideo/
-Disallow: /europa/
