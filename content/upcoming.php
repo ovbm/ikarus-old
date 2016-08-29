@@ -2,7 +2,7 @@
 <div id="upcoming"></div>
 
 <script>
-$.getJSON("https://api.bandsintown.com/artists/Ikarus/events.json?callback=?&app_id=mockingbird&date=upcoming", function(result) {
+$.getJSON("https://api.bandsintown.com/artists/Ikarus/events.json?callback=?&api_version=2.0&app_id=mockingbird&date=upcoming", function(result) {
 
     $.each(result, function() {
     // an array of month names
