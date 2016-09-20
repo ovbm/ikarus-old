@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} !^ikarus\.band$ [NC]
-RewriteRule ^(.*)$ http://ikarus.band/$1 [R=301,L]
+RewriteRule ^(.*)$ https://ikarus.band/$1 [R=301,L]
 
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html

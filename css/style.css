@@ -7,6 +7,8 @@ p{font-size:1em;color:#000;line-height:1em;margin:0 0 0.5em 0;}
 #options{position:relative;z-index:100;margin-bottom:40px;}
 button{border:0 none;background:#fff;cursor:pointer;display:inline-block;font-family:"jaf-domus-titling-web",sans-serif;font-size:1em;text-transform:none;transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-webkit-transition:all 0.3s ease 0s;width:16%;min-width:6em;margin:0.5em 0;}
 button:hover{letter-spacing:0.2em;transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-webkit-transition:all 0.3s ease 0s;}
+button:active{outline: none; border: none;}
+button:focus{outline:0;}
 footer{border-top:1px solid #CCC;font-size:0.8em;z-index:100;}
 #footer{width:98.8%;position:relative;top:40em;opacity:0; margin: 0 auto;}
 #disclaimer{color:red;font-weight:bold;display:none;}

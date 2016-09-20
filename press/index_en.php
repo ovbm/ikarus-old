@@ -14,11 +14,11 @@
 
 <div class="contentwrap">
 
-	<img id="ikaruspic" img src="../img/ikarus-echo-large.jpg"></img>
+	<img id="ikaruspic" img src="../img/Ikarus-Chronosome-Cover-Digital_web_small.jpg"></img>
 
-	<h2 id="ikarustitle"> 
-		<span style="letter-spacing:-0.05em;">IKARUS</span> <br/> 
-		<span style="position:relative;top:-0.7em;left:-0.02em;letter-spacing:0.16em;">ECHO</span> 
+	<h2 id="ikarustitle">
+		<span style="letter-spacing:-0.05em;">IKARUS</span> <br/>
+		<span style="position:relative;top:-0.7em;left:-0.02em;letter-spacing:0.16em;">CHRONOSOME</span>
 	</h2>
 
 
@@ -32,13 +32,13 @@
 		<?php include("../content/bookpress/about_en.php"); ?>
 
 	<h2 id="konzerte">Concerts </h2>
-      	<?php include("../content/bookpress/concerts.php"); ?>	
+      	<?php include("../content/bookpress/concerts.php"); ?>
 
-	<h2 id="presse">Press</h2>	
-      	<?php include("../content/bookpress/press_en.php"); ?>	
-	
-	<h2 id="downloads">Downloads</h2>	
-      	<?php include("../content/bookpress/downloads_en.php"); ?>	
+	<h2 id="presse">Press</h2>
+      	<?php include("../content/bookpress/press_en.php"); ?>
+
+	<h2 id="downloads">Downloads</h2>
+      	<?php include("../content/bookpress/downloads_en.php"); ?>
 
 </div>
 

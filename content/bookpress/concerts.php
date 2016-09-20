@@ -9,15 +9,15 @@ var yyyy = today.getFullYear();
 
 if(dd<10) {
     dd='0'+dd
-} 
+}
 
 if(mm<10) {
     mm='0'+mm
-} 
+}
 
 today = yyyy+'-'+mm+'-'+dd;
 
-$.getJSON("http://api.bandsintown.com/artists/Ikarus/events.json?callback=?&app_id=mockingbird&date=2012-12-31,"+today, function(result) {
+$.getJSON("https://api.bandsintown.com/artists/Ikarus/events.json?callback=?&api_version=2.0&app_id=mockingbird&date=2012-12-31,"+today, function(result) {
 
     $.each(result, function() {
     // an array of month names
@@ -55,7 +55,7 @@ $.getJSON("http://api.bandsintown.com/artists/Ikarus/events.json?callback=?&app_
         });
     };
     $('#past').reverseChildren();
-}); 
+});
 
 
-</script> 
+</script>
