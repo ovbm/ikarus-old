@@ -17,7 +17,7 @@
 	<img id="ikaruspic" img src="../img/Ikarus-Chronosome-Cover-Digital_web_small.jpg"></img>
 
 	<h2 id="ikarustitle">
-		<span style="letter-spacing:-0.05em;">IKARUS</span> <br/>
+		<span style="letter-spacing:1.0em;left:0.4em;position:relative;">IKARUS</span> <br/>
 		<span style="position:relative;top:-0.7em;left:-0.02em;letter-spacing:0.16em;">CHRONOSOME</span>
 	</h2>
 
