@@ -1,6 +1,7 @@
 </div><!-- #content -->
 
 <div id="footer">
+
 	 <div class="sociallinks">
 		<div class="slcontainer">
 			<a target="_blank" class="slink slfacebook hvr-float-shadow track" data-category='link' data-action='facebook' href="https://www.facebook.com/ikarusonline"></a>
@@ -35,7 +36,31 @@
 			</div>
 		<!--End mc_embed_signup-->
 	</div>
+
+	<div id="downloadcontainer">
+		<iframe id="iframe" style="overflow:hidden"width="100%" height="5%" frameborder="0" name="iframe" scrolling="no" allowTransparency="true" src="http://www.protectdisc.com/App/CodeLoad/Download.aspx">This option will not work correctly. Unfortunately, your browser does not support Inline Frames</iframe>
+	</div>
 </div>
+
+<script type="text/javascript">
+
+  $("#downloadcontainer").hide("slow");
+
+  $("#vinylcode").click(function(){
+    $("#downloadcontainer").show("slow");
+  });
+
+	$(document).mouseup(function (e)
+	{
+    var container = $("#downloadcontainer");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide("slow");
+    }
+});
+</script>
 
 <!--Defer Video-->
 <script type="text/javascript">

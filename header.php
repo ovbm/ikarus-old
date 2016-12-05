@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>IKARUS - ECHO. Contemporary Evocative Music</title>
+	<title>IKARUS - CHRONOSOME</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=0.6"/>
-    <meta name="description" content="Official page of the Zurich based band IKARUS. Contemporary evocative music composed by Ramón Oliveras. Currently on tour with their first Album Echo.">
+    <meta name="description" content="Official page of the Zurich based band IKARUS. Compositions by Ramón Oliveras. Currently on tour with their second Album Chronosome.">
     <meta name="author" content="Ramón Oliveras">
-	<meta name="keywords" content="Ikarus, Echo, Contemporary Music, Evocative Music, Contemporary Jazz, Rammón Oliveras, Stephanie Suhner, Andreas Lareida, Lucca Fries, Mo Meyer, Zurich" />
+	<meta name="keywords" content="Ikarus, Chronosome, Contemporary Music, Contemporary Jazz, Rammón Oliveras, Stephanie Suhner, Andreas Lareida, Lucca Fries, Mo Meyer, Zurich" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -15,17 +15,17 @@
 	<script src="//use.typekit.net/laz3nef.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 
-	<!--Javascript-->	
+	<!--Javascript-->
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<!--<script type="text/javascript" src="js/jreject.mini.js"></script>-->
 
 	<script type="text/javascript">
 	  	$(document).ready(function() {
- 			$.reject();   
-    		return false;  
-		});  
+ 			$.reject();
+    		return false;
+		});
 	</script>
-	
+
 	<!--/*! http://responsiveslides.com v1.54 by @viljamis */-->
 
 	<script type="text/javascript">

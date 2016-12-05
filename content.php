@@ -22,7 +22,7 @@
 
 <div id="show-buttons">
       <button class="show-front track" data-category='Navigation' data-action='Home'>HOME</button>
-      <button class="show-right track" data-category='Navigation' data-action='Echo'>ECHO</button>
+      <button class="show-right track" data-category='Navigation' data-action='Echo'>CHRONOSOME</button>
       <button class="show-left track" data-category='Navigation' data-action='Video'>VIDEO</button>
       <button class="show-top track" data-category='Navigation' data-action='Gallery'>BAND</button>
       <button class="show-bottom track" data-category='Navigation' data-action='Live'>LIVE</button>
@@ -36,8 +36,8 @@
   <div id="cube" class="show-front">
     <figure class="front">
       <div class="contentbox">
-        <p class="ikarustitle">IKARUS</p>
-        <p class="echotitle">ECHO</p>       
+        <!--<p class="ikarustitle">IKARUS</p>
+        <p class="cdtitle">CRONOSOME</p>-->
       </div>
     </figure>
 
@@ -49,16 +49,16 @@
 
     <figure class="right">
       <div class="contentbox">
-        <?php include("content/echo.php"); ?>
+        <?php include("content/chronosome.php"); ?>
       </div>
     </figure>
-    	   	
+
     <figure class="left">
       <div class="contentbox">
         <?php include("content/video.php"); ?>
       </div>
     </figure>
-    
+
     <figure class="top">
       <div class="contentbox">
         <?php include("content/gallery.php"); ?>
@@ -72,7 +72,7 @@
     </figure>
 
   </div>
-</section>	
+</section>
 </div>
 
 <script type="text/javascript">
@@ -94,7 +94,3 @@ $(document).ready(function() {
           },3600);
         });
 </script>
-
- 
-            
-
