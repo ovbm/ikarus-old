@@ -38,16 +38,16 @@
 	</div>
 
 	<div id="downloadcontainer">
-		<iframe id="iframe" style="overflow:hidden"width="100%" height="5%" frameborder="0" name="iframe" scrolling="no" allowTransparency="true" src="http://www.protectdisc.com/App/CodeLoad/Download.aspx">This option will not work correctly. Unfortunately, your browser does not support Inline Frames</iframe>
+		<iframe id="iframe" style="overflow:hidden"width="100%" height="5%" frameborder="0" name="iframe" scrolling="no" allowTransparency="true" src="https://www.protectdisc.com/App/CodeLoad/Download.aspx">This option will not work correctly. Unfortunately, your browser does not support Inline Frames</iframe>
 	</div>
 </div>
 
 <script type="text/javascript">
 
-  $("#downloadcontainer").hide("slow");
+  $("#downloadcontainer").hide();
 
   $("#vinylcode").click(function(){
-    $("#downloadcontainer").show("slow");
+    $("#downloadcontainer").show();
   });
 
 	$(document).mouseup(function (e)
@@ -57,7 +57,7 @@
     if (!container.is(e.target) // if the target of the click isn't the container...
         && container.has(e.target).length === 0) // ... nor a descendant of the container
     {
-        container.hide("slow");
+        container.hide();
     }
 });
 </script>
