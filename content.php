@@ -54,7 +54,7 @@
     </figure>
 
     <figure class="left">
-      <div class="contentbox">
+      <div class="contentbox videocontentbox">
         <?php include("content/video.php"); ?>
       </div>
     </figure>
