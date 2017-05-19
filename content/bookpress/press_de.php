@@ -1,3 +1,48 @@
+		<p class="quote">„Listening to Ikarus is a very different, very special experience. It certainly pays off to discover their work. </p>
+		<p>Written In Music NE (Albumbesprechung) – März 2017 </p>
+
+		<p class="quote">„Und alle lauschen. Ikarus erinnern daran, wie wohltuend die Sprache reiner Musik wirkt in einer an Worten übervollen Welt. </p>
+		<p>Stuttgarter Nachrichten & Stuttgarter Zeitung DE (Konzertbesprechung) - März 2017 </p>
+
+		<p class="quote">„You are buying something unique in between a dream and a mechanical machine monster. Just awesome. </p>
+		<p>Prognosis IT (Albumbesprechung) – März 2017 </p>
+
+		<p class="quote">„Ohne Worte wird die menschliche Singstimme zum vollwertigen Instrument. Niemand kann sich diesen schimmernden Tonkaskaden entziehen. </p>
+		<p>Stuttgarter Nachrichten DE (Konzertbesprechung) – März 2017 </p>
+
+		<p class="quote">„This band ist unique. One of the characteristics of Ikarus‘ music is dynamism, not to mention delicate adjustment of the volume, and musical tricks in various places, which surprises the audience. It‘s great fun to listen to their music. </p>
+		<p>Real and True JP (Konzertbesprechung) – Februar 2017 </p>
+
+		<p class="quote">„Ikarus released an album, which resonates deep in the heart. </p>
+		<p>Disc Union JP (Albumbesprechung) – Februar 2017 </p>
+
+		<p class="quote">„Quality writing, flawless performances and a resplendently detailed production. A significant release indeed. </p>
+		<p>Sid Smith, Prog Magazine UK (Albumbesprechung) – Januar 2017 </p>
+
+		<p class="quote">„Der Zuhörer erlebt in gelassenem Gleitflug ein einmaliges Hör- und Sinneserlebnis. </p>
+		<p>Rondo Magazine DE (Albumbesprechung) – Januar 2017 </p>
+
+		<p class="quote">„Kompositorische Innovation und Stringenz, gelebtes Bewusstsein für die Tradition in Klassik und Jazz, sowie instrumentale und gesangliche Perfektion präsentieren sich hier in selten gehörter Homogenität. </p>
+		<p>Südostschweiz CH (Konzertbesprechung) – Januar 2017 </p>
+
+		<p class="quote">„Es war ein gutes, eindrückliches Konzert. Ihre musikalische Integrität macht Ikarus zu einer Band und nicht zu einer Zweckgemeinschaft von fünf Individualisten. </p>
+		<p>Bündner Tagblatt CH (Konzertbesprechung) – Januar 2017 </p>
+
+		<p class="quote">„Hier wird mit Klängen virtuos gemalt. Ein Konzert der Spitzenklasse. </p>
+		<p>Zürichsee Zeitung CH (Konzertbesprechung) – Januar 2017 </p>
+
+		<p class="quote">„Fantastic, phantasmagoric, and masterful in its nonchalance, Ikarus is a complete musical experience. </p>
+		<p>5/5, Bud Kopman, Allaboutjazz.com USA (Albumbesprechung) – Dezember 2016 </p>
+
+		<p class="quote">„This album is one of the highlights of the year. </p>
+		<p>Can this even be called music? UK (Albumbesprechung) – Dezember 2016 </p>
+
+		<p class="quote">„Die Stücke von Ikarus entfalten eine magische Anziehungskraft. </p>
+		<p>NDR, Album der Woche DE (Albumbesprechung)– November 2016 </p>
+
+		<p class="quote">„Ikarus bringt die Zeit zum Klingen. Sie machen musikalische Kaskaden hörbar, die packen. </p>
+		<p>Kulturtipp CH (Albumbesprechung) – November 2016 </p>
+
 		<p class="quote">„Ikarus klingen komplex, herausfordernd, sanft und energetisch zugleich, sind aber dennoch zugänglich."</p>
 		<p>Zürcher Oberländer (Konzertbericht, Portrait) - Februar 2016</p>
 
