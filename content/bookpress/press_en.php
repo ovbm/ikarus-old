@@ -32,7 +32,7 @@
 	<p>5/5, Bud Kopman, Allaboutjazz.com USA (album review) – December 2016 </p>
 
 	<p class="quote"> „This album is one of the highlights of the year.“ </p>
-	Can this even be called music? UK (album review) – December 2016 </p>
+	<p>Can this even be called music? UK (album review) – December 2016 </p>
 
 	<p class="quote"> „The pieces of Ikarus unfold a magical attraction.“ </p>
 	<p>NDR, Album of the week DE (album review)– November 2016 </p>
