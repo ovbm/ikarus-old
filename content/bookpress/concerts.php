@@ -41,7 +41,7 @@ $.getJSON("https://api.bandsintown.com/artists/Ikarus/events.json?callback=?&api
 
     var yyyy = formattedDate.getFullYear();
 
-    var output = "<div class='show'><p>" + dd + " " + mm + " " + yyyy + " <a target='_blank' href='" + this.ticket_url +"'>" + this.venue.name + '</a> ' + " " + this.venue.city + ", " + this.venue.country + "</p></div>";
+    var output = "<div class='show'><p>" + dd + " " + mm + " " + yyyy + " " + this.venue.name + " " + this.venue.city + ", " + this.venue.country + "</p></div>";
 
     $('#past').append(output);
 
