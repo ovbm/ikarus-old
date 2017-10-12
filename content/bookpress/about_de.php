@@ -8,3 +8,14 @@
 <p>
 Abgesehen von dem subtilen Zusammenspiel, der kompakten Produktion, und der musikalischen Beweglichkeit, welche die fünf Musiker durch die vielen Konzerte als Working-Band gewonnen haben, ist vor allem ein musikalischer Parameter neu sehr bemerkenswert: Klang-Farbe. Das Album ist voller schillernder, resonierender Farbenpracht. Es hört sich an, als ob man in einen Klang-Urwald aus leuchtenden und vibrierenden Farben und Formen tritt. Der Schritt von Echo zu Chronosome ist vergleichbar mit dem Wechsel im Kino von Schwarz-Weiss zu farbigem Film. Für Kenner des ersten Albums scheint Vieles vertraut, wirkt aber nun lebendiger und sinnlicher. Durch diesen Wandel fühlt sich Chronosome warm und natürlich an - nicht zuletzt wegen gelegentlich eigenartig samba-esquen Rhythmen. Die dunklen Töne des Vorgängers sind noch immer hörbar, aber sie dienen nun mehr als Hintergrund um die Tiefenschärfe der neuen Klangfarben zu verstärken. Mit diesem dualistischen Spiel kreiert IKARUS eine wundervoll paradoxe Spannung zwischen Wintermelancholie und einem Tag in Rio.
 </p>
+
+<h3>CONTACT</h3>
+<p class="infocubetext">
+  <script language="JavaScript">var username = "contact"; var hostname = "ikarus.band"; var linktext = username + "@" + hostname ; document.write("Mail: <a class='track' data-category='mailto' data-action='mail click' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + "contact@ikarus.band" + "</a>");</script><br/>
+  Label: <a class='track' data-category='link' data-action='ronin' target="_blank" href="http://www.nikbaertsch.com/de/sound/">Ronin Rhythm Records</a> <br/>
+  Int. Festival Booking: <a class='track' data-category='link' data-action='tourbo' target="_blank" href="http://www.tourbo-music.ch/">Tourbo Music</a> <br/>
+  PR Germany: <a class='track' data-category='link' data-action='qrious' target="_blank" href="http://www.qrious.de/">Qrious</a> <br/>
+  PR Benelux: <a class='track' data-category='link' data-action='stilletto' target="_blank" href="http://stilletto.be/en/">Stilletto</a> <br/>
+  PR & Booking Japan: <a class='track' data-category='link' data-action='japan' target="_blank" href="http://www.bigstream.co.jp/music/index.html">Real & True</a> <br/>
+  art direction: <a class='track' data-category='link' data-action='iovi' target="_blank" href="http://www.iovi.io">iovi - Olivier Baumann</a>
+</p>
