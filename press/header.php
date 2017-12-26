@@ -2,13 +2,12 @@
 <html>
 <head>
 	<title>IKARUS - Booking</title>
-	
+
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="../css/bookpress.css"/>
-	<link rel="stylesheet" type="text/css" href="../css/flexslider.css">
 
 	<!-- Typekit -->
 	<script src="//use.typekit.net/laz3nef.js"></script>
@@ -17,7 +16,6 @@
 	<!-- Typekit -->
 	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="../js/jquery.fitvids.js"></script>
-	<script type="text/javascript" src="../js/jquery.flexslider-min" ></script>
 
 
 	<!-- Google Analytics -->

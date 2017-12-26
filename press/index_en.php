@@ -37,6 +37,9 @@
 	<h2 id="presse">Press</h2>
       	<?php include("../content/bookpress/press_en.php"); ?>
 
+	<h2 id="band">Band</h2>
+		<?php include("../content/bookpress/band_en.php"); ?>
+
 	<h2 id="downloads">Downloads</h2>
       	<?php include("../content/bookpress/downloads_en.php"); ?>
 
@@ -51,17 +54,5 @@
     		$(".videowrap").fitVids();
   		});
 		</script>
-
-<!-- slider -->
-<script>
-    $(window).load(function () {
-        $('.flexslider').flexslider({
-            animation: "slide",
-            slideshow: false,
-            slideshowSpeed: 4500,
-            animationSpeed: 1000
-        });
-    });
-</script>
 
 </html>

@@ -39,7 +39,7 @@ body {
 /* 2. Intro & Navigation */
 /* 3. PT Page */
 /* 4. Footer */
-/* 5. Sociallinks */ 
+/* 5. Sociallinks */
 /* 6. Newsfeed & Concerts
 /* 7. Music & Gallery
 /* 8. Media Queries */
@@ -47,20 +47,24 @@ body {
 
 /* 1. Page Elements
 ----------------------------------------------------------------- */
-html { 
-	height: 100%; 
+html {
+	height: 100%;
 	background: #fff;
 	}
 
 
 body{
-	height: 100%; 
-  	font-family: "jaf-domus-titling-web",sans-serif;
+  font-family: "jaf-domus-titling-web",sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+	height: 100%;
 	color: #000;
 	margin: 0;
 	z-index:0;
+}
 
-	}
+a,h1,h2,h3{
+  font-family: "jaf-domus-titling-web",sans-serif;
+}
 
 #main{
     position:relative;
@@ -69,20 +73,19 @@ body{
 }
 
 p {
-	font-size:1em;
+	font-size:0.8em;
 	line-height: 1.5em;
-	text-align: justify;
 	}
-	
+
 a {
 	color: #000;
-	text-decoration:none;
+	text-decoration:underline;
 	}
 
 a:hover{
 	color: #00ffff;
 	}
-	
+
 img {
 	display:block;
 	margin: 0.5em 0 0.5em 0;
@@ -105,16 +108,16 @@ ul{
 	}
 
 li{
-	
+
 	}
 
 li p{
 	margin: 0;
 	}
 
-* { 
-	-moz-box-sizing: border-box; 
-	-webkit-box-sizing: border-box; 
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	}
 
@@ -127,7 +130,7 @@ table{
 #lineup{
 	text-align:right;
 	}
-	
+
 td{
 	height: 1.5em;
 	vertical-align: top;
@@ -197,44 +200,44 @@ h6 {
 
 .onequarter{
 	width:25%;
-	display: block; 
-	float: left; 
-	padding: 0 0.5em 0 0.5em;  
-	}	
-	
+	display: block;
+	float: left;
+	padding: 0 0.5em 0 0.5em;
+	}
+
 .onethird{
 	width:33%;
-	display: block; 
-	float: left; 
-	padding: 0 0.5em 0 0.5em;  
+	display: block;
+	float: left;
+	padding: 0 0.5em 0 0.5em;
 	}
 
 .half{
 	width: 50%;
-	display: block; 
-	float: left; 
-	padding: 0 0.5em 0 0.5em; 
+	display: block;
+	float: left;
+	padding: 0 0.5em 0 0.5em;
 	}
-		
+
 .twothirds{
 	width:66%;
-	float: left; 
-	display: block; 
-	padding: 0 0.5em 0 0.5em; 
+	float: left;
+	display: block;
+	padding: 0 0.5em 0 0.5em;
 	}
-	
+
 .threequarter{
 	width:75%;
-	display: block; 
-	float: left; 
-	padding: 0 0.5em 0 0.5em;  
-	}	
+	display: block;
+	float: left;
+	padding: 0 0.5em 0 0.5em;
+	}
 
 .threethirds{
 	width: 100%;
-	display: block; 
-	float: left; 
-	padding: 0 0.5em 0 0.5em; 
+	display: block;
+	float: left;
+	padding: 0 0.5em 0 0.5em;
 	}
 
 .left{
@@ -244,7 +247,7 @@ h6 {
 .right{
 	float:right;
 	}
-	
+
 .element{
 	opacity: 0;
 }
@@ -291,39 +294,48 @@ h6 {
 	font-size: 1.5em;
 	width: 7.5em;
 	}
-	
+
 #sidenav ul{
 	list-style-type: none;
 }
-	
+
+#sidenav a{
+  text-decoration: none;
+}
+
+.show p{
+ margin:0;
+ line-height: 2em;
+}
+
 #ikaruspic{
 	width:100%;
 	margin: 4em auto 1em;
 	}
-	
+
 #title{
 	color: #000;
 	text-align:center;
 	font-size: 2em;
 	font-weight: 800;
 	}
-	
+
 #title:hover{
 	color: #000;
 	}
 
 #titleli{
 	width: 12.5em;
-	padding: 0;	
+	padding: 0;
 	}
-	
+
 #ikarustitle{
 	font-size: 4em;
 	text-align: center;
 	margin: 1em 0 0 0;
 	font-weight: normal;
 }
-	
+
 .intro{
 	margin: 1em 0 0 0;
 }
@@ -340,7 +352,7 @@ h6 {
 
 nav {
 	z-index: 1000;
-	text-align: center;	
+	text-align: center;
 	position:relative;
 	}
 
@@ -350,7 +362,7 @@ nav ul {
 
 nav ul li {
   	display: inline-block;
-  	vertical-align:middle; 
+  	vertical-align:middle;
   	padding: 0.5em 1.625em 0.75em 1.625em;
   	width: 11.625em;
 	}
@@ -361,15 +373,15 @@ nav ul li a{
 	font-size: 2.25em;
 	text-transform: uppercase;
 	}
-	
+
 nav ul li a:hover{
 	color: #000;
 	}
 
 .quote{
 	font-style: italic;
-	font-size: 1.2em;
-	margin: 1em 0 -1em 0;
+	font-size: 1em;
+	margin: 1em 0 -.8em -0.5em;
 }
 
 
@@ -464,7 +476,7 @@ nav ul li a:hover{
 	margin-top: 130px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%); 
+	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
 
@@ -555,7 +567,7 @@ nav ul li a:hover{
 	}
 }
 
-@media screen and (max-height: 38em) { 
+@media screen and (max-height: 38em) {
 	.pt-triggers .dl-menuwrapper {
 		display: none;
 	}
@@ -568,7 +580,7 @@ nav ul li a:hover{
 	background-color: #000;
 	height:10em;
 	}
- 
+
 #footer h3{
 	color: #fff;
 	font-weight: normal;
@@ -576,7 +588,7 @@ nav ul li a:hover{
 	}
 #footer p{
 	color: #ddd;
-	font-size:0.75em;	
+	font-size:0.75em;
 	}
 
 #footer a{
@@ -607,14 +619,14 @@ nav ul li a:hover{
 	}
 
 .videowrap{
-	margin: 0 .5em 1em .5em;	
+	margin: 0 .5em 1em .5em;
 	}
 
 .gallerycolumn{
 	width: 50%;
-	display: block; 
-	float: left; 
-	padding: 0; 
+	display: block;
+	float: left;
+	padding: 0;
 	}
 
 /* 8. Media Queries
@@ -671,7 +683,7 @@ body{
 
 body {
 	font-size: 12px;
- 	
+
 	}
 
 #titleli{
@@ -725,7 +737,7 @@ td{
 
 @media (max-width: 480px) {
 #titleli{
-	width:20em;	
+	width:20em;
 }
 
 }

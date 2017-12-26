@@ -53,15 +53,4 @@
     		$(".videowrap").fitVids();
   		});
 		</script>
-<script>
-    $(window).load(function () {
-        $('.flexslider').flexslider({
-            animation: "slide",
-            slideshow: false,
-            slideshowSpeed: 4500,
-            animationSpeed: 1000
-        });
-    });
-</script>
-
 </html>

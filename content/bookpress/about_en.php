@@ -1,6 +1,21 @@
-<a traget="_blank" href="../img/Ikarus-Bandfoto-web.jpg"><img style="width:100%;" src="../img/Ikarus-Bandfoto-web-small.jpg"/></a>
+<a traget="_blank" href="../img/Ikarus Bandfoto 2017 v1_small.jpg"><img style="width:100%;" src="../img/Ikarus Bandfoto 2017 v1_small.jpg"/></a>
 
-<p>IKARUS are a musical organism comprised of Ramón Oliveras (composition and drums), Stefanie Suhner (vocals), Andreas Lareida (vocals), Lucca Fries (piano), and Mo Meyer (bass). The 5 piece is a prism through which influences drawn from Math Metal, Free Jazz, left-field Electronica, modern Pop and Contemporary Classical Music pass through, and create a very distinct sound signature on the output. They call their sound Evocative Jazz – a volatile mixture that emphasizes polyrhythms, minimal grooves, Nordic soundscapes and Prog Jazz deviations. The key ingredient that sets them apart from other contemporary outfits playing around with the Jazz idiom is their use of a wordless, abstracted blend of male and female vocals; as lead instruments and texture. An image to bare in mind while listening to IKARUS is a beautiful tension created between a Nordic darkness and a sweltering, equatorial color palette.</p>
+<p class="quote">„Get ready for a musical journey that will leave you breathless and exhilarated!“ </p>
+<p>allaboutjazz.com (USA)</p>
+
+<p>The hybrid musical organism known as IKARUS is on tour with the prismatic pieces of their albums Echo and Chronosome and brand new songs. The band - comprised of drums, bass, piano and two vocals (male and female) - is on the road in Europe and Japan and invites you to step into a jungle full of colorful, vibrating forms.</p>
+
+<p>IKARUS call their sound Evocative Jazz – a volatile mixture that emphasizes polyrhythms, sensual singing and energetic improvisation. Consequently the drummer, composer and bandleader Ramón Oliveras citing Morton Feldman, Meshuggah, The Knife and Craig Taborn as catalysts for songwriting, all in a single breath. So an image to bare in mind while listening to IKARUS is a beautiful tension created between a Nordic darkness and a sweltering, equatorial color palette.</p>
+
+<p>Line-up:<br>
+Anna Hirsch – Voc <br>
+Andreas Lareida – Voc<br>
+Lucca Fries – Piano<br>
+Mo Meyer – Bass<br>
+Ramón Oliveras – Drums, Composition
+</p>
+<a href="#band"> BIO</a>
+
 
 <h3>CONTACT</h3>
 <p class="infocubetext">
