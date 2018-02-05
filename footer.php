@@ -7,7 +7,7 @@
 			<a target="_blank" class="slink slfacebook hvr-float-shadow track" data-category='link' data-action='facebook' href="https://www.facebook.com/ikarusonline"></a>
 		</div>
 		<div class="slcontainer">
-			<a target="_blank" class="slink slsoundcloud hvr-float-shadow track" data-category='link' data-action='soundcloud' href="https://soundcloud.com/ikarusband"></a>
+			<a target="_blank" class="slink slspotify hvr-float-shadow track" data-category='link' data-action='spotify' href="https://open.spotify.com/artist/7Dxli6ux8ptFXGt0MkDwIq"></a>
 		</div>
 		<div class="slcontainer">
 			<a target="_blank" class="slink slyoutube hvr-float-shadow track" data-category='link' data-action='youtube' href="https://www.youtube.com/channel/UCF5VD2G4hRGEJuScWgYWN6A?spfreload=10"></a>
