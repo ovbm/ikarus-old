@@ -2,7 +2,7 @@
 <div id="upcoming"></div>
 
 <script>
-$.getJSON("https://api.bandsintown.com/artists/Ikarus/events.json?callback=?&api_version=2.0&app_id=mockingbird&date=upcoming", function(result) {
+$.getJSON("https://rest.bandsintown.com/artists/Ikarus/events?app_id=mockingbird&date=upcoming", function(result) {
 
     $.each(result, function() {
     // an array of month names
@@ -23,8 +23,9 @@ $.getJSON("https://api.bandsintown.com/artists/Ikarus/events.json?callback=?&api
 
     // set the month and reference the month name from the monthNames array
     var mm = monthNames[formattedDate.getMonth()];
+    var tickets = this.offers[0];
 
-    var output = "<div class='show'><p>" + dd + " " + mm + " " + " <a target='_blank' href='" + this.ticket_url +"'>" + this.venue.name + '</a> ' + " " + this.venue.city + ", " + this.venue.country + "</p></div>";
+    var output = "<div class='show'><p>" + dd + " " + mm + " " + " <a target='_blank' href='" + tickets.url +"'>" + this.venue.name + '</a> ' + " " + this.venue.city + ", " + this.venue.country + "</p></div>";
     $('#upcoming').append(output);
 
   });
