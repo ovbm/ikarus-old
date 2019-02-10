@@ -22,7 +22,7 @@
 
 <div id="show-buttons">
       <button class="show-front track" data-category='Navigation' data-action='Home'>HOME</button>
-      <button class="show-right track" data-category='Navigation' data-action='Echo'>CHRONOSOME</button>
+      <button class="show-right track" data-category='Navigation' data-action='Echo'>Mosaismic</button>
       <button class="show-left track" data-category='Navigation' data-action='Video'>VIDEO</button>
       <button class="show-top track" data-category='Navigation' data-action='Gallery'>BAND</button>
       <button class="show-bottom track" data-category='Navigation' data-action='Live'>LIVE</button>
@@ -49,7 +49,7 @@
 
     <figure class="right">
       <div class="contentbox">
-        <?php include("content/chronosome.php"); ?>
+        <?php include("content/mosaismic.php"); ?>
       </div>
     </figure>
 

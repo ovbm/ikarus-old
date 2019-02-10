@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>IKARUS - CHRONOSOME</title>
+	<title>IKARUS - MOSAISMIC</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=0.6"/>
-    <meta name="description" content="Official page of the Zurich based band IKARUS. Compositions by Ramón Oliveras. Currently on tour with their second Album Chronosome.">
+    <meta name="description" content="Official page of the Zurich based band IKARUS. Compositions by Ramón Oliveras. Currently on tour with their second Album Mosaismic.">
     <meta name="author" content="Ramón Oliveras">
-	<meta name="keywords" content="Ikarus, Chronosome, Contemporary Music, Contemporary Jazz, Rammón Oliveras, Stephanie Suhner, Andreas Lareida, Lucca Fries, Mo Meyer, Zurich" />
+	<meta name="keywords" content="Ikarus, Mosaismic, Chronosome, Echo, Contemporary Music, Minimal Jazz, Minimal Music, Contemporary Jazz, Rammón Oliveras, Anna Hirsch, Andreas Lareida, Lucca Fries, Mo Meyer, Zurich" />
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
 
 	<!-- Typekit -->
 	<script src="//use.typekit.net/laz3nef.js"></script>
