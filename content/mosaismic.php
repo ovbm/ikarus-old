@@ -8,5 +8,5 @@
     </a>
 </iframe>
 <p>buy CD at - <a href="https://roninrhythmrecords.bandcamp.com/album/mosaismic" target="_blank">Ronin Rhythm Records Shop</a> <br>
-<!-- <a id="vinylcodedisabled" target="_blank" href="http://www.protectdisc.com/App/CodeLoad/Download.aspx">vinyl digital download</a> -->
+<a id="vinylcodedisabled" target="_blank" href="http://www.protectdisc.com/App/CodeLoad/Download.aspx">vinyl digital download</a>
 </p>
